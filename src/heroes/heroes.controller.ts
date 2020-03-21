@@ -18,7 +18,7 @@ export class HeroesGameController {
   }
 
   @Get(':id')
-  async find(@Param('id') id: string): Promise<Hero[]> {
+  async find(@Param('id') id: string): Promise<Hero> {
     return this.queryBus.execute(new GetHeroeQuery(id));
   }
 }
