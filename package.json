@@ -12,7 +12,7 @@
     "@nestjs/cqrs": "^6.1.0",
     "@nestjs/platform-express": "^7.0.3",
     "cli-color": "^1.4.0",
-    "event-sourcing-nestjs": "^1.0.9",
+    "event-sourcing-nestjs": "^1.1.2",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.4.0"
   },
